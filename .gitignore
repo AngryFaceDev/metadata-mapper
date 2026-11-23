@@ -1,0 +1,6 @@
+scratch_rest_config.json
+*.log
+.DS_Store
+node_modules/
+target/
+dist/

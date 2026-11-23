@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generator: Assimilate Product Suite-->
+<!--Export Resolve CSV (Auto), a no-prompt variant. See the README in this
+    folder -- THIS is the one to use on macOS. Has no inputs, so SCRATCH
+    has nothing to show a dialog for. Set default_mapping_template and
+    (optionally) default_output_folder in scratch_rest_config.json first.-->
+<custom_commands version="10.0">
+	<command uuid="fe86d5c4-2563-4446-a733-77951697f951" type="app" blocking="Y" minimize_on_exe="N" player_menu="Y" shot_selection="N">
+		<title>Export Resolve CSV (Auto)</title>
+		<cmdline>/Users/Shared/SCRATCH-Tools/metadata_to_resolve_csv.py</cmdline>
+	</command>
+</custom_commands>

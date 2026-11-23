@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Generator: Assimilate Product Suite-->
+<!--Export Resolve CSV custom command -- REFERENCE ONLY on macOS, see the
+    README in this folder: the 3 inputs below are confirmed to never reach
+    the script's argv on macOS, on either the manual button or a
+    post-render action. Kept here only in case a future SCRATCH update
+    changes this. Use ExportResolveCSVAuto.acc instead.-->
+<custom_commands version="10.0">
+	<command uuid="f1e49eaf-72f7-4820-a8d1-617238a9a655" type="app" blocking="Y" minimize_on_exe="N" player_menu="Y" shot_selection="N">
+		<title>Export Resolve CSV</title>
+		<cmdline>/Users/Shared/SCRATCH-Tools/metadata_to_resolve_csv.py</cmdline>
+		<inputs>
+			<input uuid="bda1c998-8d72-4e16-b565-f2f29ad9a381" type="0" store="1">
+				<label>Mapping Template File (.json)</label>
+				<value></value>
+			</input>
+			<input uuid="fd76081c-338f-4c0b-a32a-4909bda02233" type="0" store="1">
+				<label>Output Folder</label>
+				<value></value>
+			</input>
+			<input uuid="8dd032a4-2e8b-42d7-8f2b-e4dbab82d0fb" type="0" store="1">
+				<label>Timeline Name (blank = current)</label>
+				<value></value>
+			</input>
+		</inputs>
+	</command>
+</custom_commands>

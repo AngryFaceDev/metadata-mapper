@@ -1,0 +1,35 @@
+{
+  "app": "Metadata Mapper",
+  "exportedTemplateFormat": 1,
+  "exportedAt": "2026-09-24T00:00:00.000Z",
+  "name": "Default Basic (built-in)",
+  "mapping": {
+    "File Name": "Name",
+    "Duration TC": "Duration",
+    "Start TC": "Start",
+    "End TC": "End",
+    "Reel Number": "Tape",
+    "Aux 1": "Auxiliary TC1",
+    "Audio Start TC": "Sound TC",
+    "Sound Roll #": "Soundroll",
+    "Scene": "Scene",
+    "Take": "Take",
+    "Good Take": "Circled"
+  },
+  "valueMaps": {
+    "Good Take": {
+      "passthrough": false,
+      "map": {
+        "Y": "Yes"
+      }
+    }
+  },
+  "sourceColumnsSnapshot": [
+    "Name", "Tape", "Scene", "Take", "Circled", "Duration", "Start", "End",
+    "Auxiliary TC1", "Sound TC", "Soundroll", "cameraModel", "cameraSerialNumber"
+  ],
+  "targetColumnsSnapshot": [
+    "File Name", "Duration TC", "Start TC", "End TC", "Reel Number", "Aux 1",
+    "Audio Start TC", "Sound Roll #", "Scene", "Take", "Good Take"
+  ]
+}
